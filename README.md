@@ -3,7 +3,9 @@ Python is a common programing language for data analysis and AI applications.
 When Node-RED users create these applications, they need to consider how to integrate Node-RED flow with Python program.
 
 ## Conventional methods
-- REST API
+The followings are general methods to call Python code from Node-RED.
+
+- MeREST API
 - exec node
 
 ## New method using Pyodide
