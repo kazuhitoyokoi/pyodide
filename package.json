@@ -2,7 +2,9 @@
     "name": "pyodide",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-image-output": "0.6.3"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
