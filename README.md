@@ -9,7 +9,8 @@ The followings are general methods to call Python code from Node-RED.
 After creating REST API to provide servic built Python Flask frame work, http request node in Node-RED can call the REST API. This example is Model Asset eXchange container. It provides AI services by container. Node-RED users can call the REST API through the http request node.
 
 - exec node
-
+Another method is the exec node to execute Python command directly.
+Before the execution of the command, user need to prepare the Python program in the local file system. This may be difficult to store 
 
 ## New method using Pyodide
 
